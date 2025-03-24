@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://anima754851.github.io/Kod-job-portal/",
+  "homepage": "https://Anima754851.github.io/Kod-job-portal/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
