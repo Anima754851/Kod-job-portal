@@ -9,6 +9,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        {/* 404 Handling - Redirects unknown routes to Login */}
+        <Route path="*" element={<Login />} />
       </Routes>
     </Router>
   );

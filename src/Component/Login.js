@@ -29,7 +29,7 @@ const Login = () => {
 
     if (user) {
       alert("Login successful!");
-      navigate("/dashboard");
+      navigate("/dashboard", { replace: true });
     } else {
       alert("Invalid username or password");
     }
