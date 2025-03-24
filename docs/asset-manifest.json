@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Kod-job-portal/static/css/main.1677a297.css",
+    "main.js": "/Kod-job-portal/static/js/main.0530125c.js",
+    "static/js/453.32ec0147.chunk.js": "/Kod-job-portal/static/js/453.32ec0147.chunk.js",
+    "static/media/jobimage.jpg": "/Kod-job-portal/static/media/jobimage.93849a0b2a81a87d320c.jpg",
+    "index.html": "/Kod-job-portal/index.html",
+    "main.1677a297.css.map": "/Kod-job-portal/static/css/main.1677a297.css.map",
+    "main.0530125c.js.map": "/Kod-job-portal/static/js/main.0530125c.js.map",
+    "453.32ec0147.chunk.js.map": "/Kod-job-portal/static/js/453.32ec0147.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1677a297.css",
+    "static/js/main.0530125c.js"
+  ]
+}
