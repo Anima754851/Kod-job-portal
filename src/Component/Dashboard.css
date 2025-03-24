@@ -1,0 +1,97 @@
+.dashboard {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.job-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: 0.3s;
+  border-top: 5px solid #007bff;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.salary {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.job-location {
+  font-size: 14px;
+  color: gray;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.skill {
+  background: #e9ecef;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: #333;
+}
+
+.job-info {
+  font-size: 12px;
+  color: gray;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.not-applied {
+  font-size: 14px;
+  color: orange;
+}
+
+.details-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.details-button:hover {
+  background: #333;
+}
